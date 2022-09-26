@@ -1,0 +1,53 @@
+.room__google-maps{
+    iframe{
+        
+        width: 100%;
+        border-radius: 1rem;
+        height: 100%;
+    }
+    width: 100%;
+    max-width: 85.6rem;
+    border-radius: 1rem;
+    margin-right: 4.8rem;
+}
+
+.room__item{
+    background-color: $blue;
+    width: 30.2rem;
+    padding: 3.5rem 4.5rem;
+    border-radius: 1rem;
+
+    &:not(:last-child){
+        margin-bottom: 2.4rem;
+    }
+}
+
+.room__link{
+    padding-bottom: 2.2rem;
+    display: flex;
+    i{
+        
+            max-width: 2rem;
+            width: 100%;
+        
+    }
+}
+
+.room__name{
+    font-size: 2.4rem;
+    padding-bottom: 3.1rem;
+    font-family: 'El Messiri';
+}
+
+.room__text{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.room__icon{
+    padding-right: 2rem;
+    position: relative;
+    top: -0.5rem;
+    
+    
+}

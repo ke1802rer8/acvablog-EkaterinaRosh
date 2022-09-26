@@ -1,0 +1,26 @@
+.nav__list{
+    display: flex;
+    align-items: center;
+}
+
+.nav__item{
+    position: relative;
+}
+
+.nav__item:not(:last-child){
+    padding-right: 5rem;
+}
+
+.nav__link{
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: $white;
+    text-decoration: none;
+    line-height: 1.8;
+   
+
+    &:hover{
+        text-decoration: underline;
+    }
+}

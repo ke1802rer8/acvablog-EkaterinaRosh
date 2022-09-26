@@ -1,0 +1,91 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 3rem 2.5rem;
+
+    img{
+        
+        width: 100%;
+        height: auto;
+    }
+}
+
+.header__logo{
+    max-width: 6rem;
+    
+    width: 100%;
+}
+
+.header__text{
+    display: flex;
+    justify-content: center;
+    padding: 12.1rem 0;
+
+}
+.header__text-mini{
+    display: flex;
+    justify-content: center;
+    padding: 3.1rem 0;
+    padding-top: 14rem;
+}
+.header__btn-dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.header__dropdown{
+
+    background-color:inherit;
+    
+    min-width: 160px;
+    z-index: 1;
+    right: 0.7rem;
+    top: 3rem;
+    z-index: 1;
+    -webkit-box-shadow: inset 0 1px 0 rgb(255 255 255 / 10%);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 10%);
+
+    margin-bottom: 3rem;
+    
+    display: none;
+  
+}
+
+.display{
+    display: none;
+    background-repeat: no-repeat;
+    height: 59vh;
+    background-image: url("/img/img__png/img-fon_two.png");
+}
+
+
+.header__btn-dropdown{
+    display: none;
+}
+.header__dropdown a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+
+    &:hover{
+        background-color: #01435e;
+        text-decoration: underline;
+    }
+}
+
+.show{
+    display: block;
+}
+
+.display-name{
+    display: flex;
+    justify-content: center;
+}

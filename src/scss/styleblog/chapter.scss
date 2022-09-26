@@ -1,0 +1,30 @@
+.chapter{
+    padding-top: 3.4rem;
+
+    &--item{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.chapter__item{
+    display: flex;
+    justify-content: center;
+}
+
+
+.chapter__item:not(:last-child){
+   
+    margin-bottom: 10rem;
+}
+
+.chapter__item-img{
+    max-width: 52.6rem;
+    width: 100%;
+    max-height: 36.5rem;
+}
+
+.chapter__padding{
+    padding-top: 15rem;
+    padding-bottom: 6.5rem;
+}

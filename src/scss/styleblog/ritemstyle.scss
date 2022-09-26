@@ -1,0 +1,28 @@
+.ritemstyle{
+    max-width: 46.6rem;
+    
+
+ align-items: center;
+}
+
+.ritemstyle__title{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: $white;
+    padding-bottom: 3rem;
+}
+
+.ritemstyle__description{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: $white;
+    line-height: 2.24rem;
+}
+
+.ritemstyle:not(:last-child){
+    margin-right: 9rem;
+}
+
+.ritemstyle:not(:first-child){
+    margin-left: 9rem;
+}

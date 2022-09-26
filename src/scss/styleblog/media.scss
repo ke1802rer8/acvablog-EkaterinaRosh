@@ -1,0 +1,603 @@
+@media (max-width: 1271px){
+    .container {
+        max-width: 93.6rem;
+        
+    }
+    .header__text {
+        display: flex;
+        justify-content: center;
+        padding: 8.1rem 0;
+    }
+
+    .session__bigger {
+        width: 100%;
+        display: grid;
+        max-width: 32.6rem;
+        margin-right: 1.8rem;
+        
+    }
+
+    .session__little {
+       
+        grid-row-gap: 15px;
+       
+    }
+
+    .session__item {
+        
+        height: 100%;
+        max-height: 20.2rem;
+        border-radius: 1.5rem;
+       
+    }
+
+    .session__title {
+        font-size: 1.6rem;
+        max-width: 20.6rem;
+        padding: 2.8rem 2.2rem;
+        line-height: 2.36rem;
+        
+    }
+    .review {
+        
+        padding: 4rem 4rem;
+        
+    }
+    .review__text {
+        font-size: 1rem;
+        
+    }
+    .review__display {
+        max-height: 33.4rem;
+    }
+
+    .review__block {
+        height: 41.5rem;
+    }
+
+    .chapter__item-img {
+        max-width: 44.6rem;
+        width: 100%;
+        height: 100%;
+        max-height: 32.5rem;
+    }
+    .ritemstyle:not(:last-child) {
+        margin-right: 6rem;
+    }
+    .ritemstyle:not(:first-child) {
+        margin-left: 5rem;
+    }
+
+    .chapter__padding {
+        padding-top: 11rem;
+        
+    }
+
+}
+
+@media (max-width: 1006px){
+    .container {
+        max-width: 72.6rem;
+    }
+    .nav{
+        display: none;
+    }
+    .header__btn-dropdown{
+        display: block;
+    }
+    .review__display-big{
+        display: none;
+    }
+    .review__display-mini{
+        display: block;
+    }
+    .header__text {
+        padding: 6.1rem 0;
+    }
+
+    .title {
+        font-size: 3.2rem;
+        padding: 0 2.6rem;
+    }
+
+    .icon__left img, .icon__right img {
+        padding-top: 0;
+
+    }
+
+    .session__bigger {
+        
+        max-width: 25.6rem;
+        margin-right: 1.5rem;
+    }
+
+    .session__title {
+        font-size: 1.3rem;
+        
+        padding: 2rem 2.2rem;
+        line-height: 2rem;
+    }
+
+    .review__display {
+        
+        /*max-width: 85.6rem;*/
+        max-height: 28.4rem;
+        
+       
+    }
+    .review__block {
+        height: 35.5rem;
+    }
+
+    .chapter__item-img {
+        max-width: 34.6rem;
+        
+    }
+    .ritemstyle:not(:last-child) {
+        margin-right: 5rem;
+    }
+    .session__block {
+        margin-right: 6.4rem;
+    }
+    .session__name {
+        padding-right: 1rem;
+        width: 21.8rem;
+        
+    }
+    .session__name, .session__price {
+        font-size: 1.3rem;
+        color: #fff;
+        
+    }
+    .session__certificate {
+        
+        padding-bottom: 2.5rem;
+    }
+    .chapter--item {
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .room__block{
+        display: flex;
+        justify-content: space-between;
+    }
+    .room__item:not(:last-child) {
+        margin-bottom: 0; 
+    }
+    .room__item {
+        background-color: #018ABE;
+        width: 26.2rem;
+        padding: 2.5rem 4.5rem;
+        border-radius: 1rem;
+    }
+    .room__google-maps {
+        width: 100%;
+        max-width: 85.6rem;
+        border-radius: 1rem;
+        margin-right: 4.8rem;
+        height: 30rem;
+        margin-bottom: 2rem;
+    }    
+}
+
+@media (max-width: 762px){
+    .display__two{
+        display: none;
+    }
+    .display{
+        display: block;
+        
+    }
+    .session__bigger {
+        max-width: 21.6rem;
+        
+    }
+    .session__title {
+        font-size: 1rem;
+        padding: 1.4rem 1.4rem;
+        line-height: 1.4rem;
+        max-width: 15.6rem;
+    }
+}
+@media (max-width: 710px){
+    .display-none{
+        display: none;
+    } 
+    .chapter__item {
+        display: block;
+        
+    }
+    .chapter__item-img {
+        max-width: none;
+        max-height: 42.5rem;
+    }
+    .ritemstyle {
+        max-width: none;
+        align-items: center;
+    }
+    .chapter__item:not(:last-child) {
+        margin-bottom: 5rem;
+    }
+    .ritemstyle:not(:last-child) {
+        margin-right: 0rem;
+        padding-bottom: 5rem;
+    }
+    .ritemstyle:not(:first-child) {
+        margin-left: 0rem;
+    }
+    .session__aligh {
+        /* align-items: center; */
+        display: flex;
+        padding-bottom: 3rem;
+        justify-content: center;
+    }
+    .session__block {
+        margin-right: 0rem;
+    }
+    .session__name, .session__price {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .session__name {
+       
+        width: 26.8rem;
+   
+    }
+    
+    .session-img__leaf img {
+        max-width: 2.3rem;
+        width: 100%;
+    }
+    .img__div{
+        display: flex;
+        justify-content: center;
+    }
+    .room__block {
+        display: block;
+        justify-content: space-between;
+    }
+    .room__item {
+        
+        width: inherit;
+       
+    }
+    .room__item:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+    .chapter__padding {
+        padding-top: 9rem;
+    }
+
+    .header {
+        
+        padding: 3rem 0rem;
+    }
+    
+    
+}
+
+@media (max-width: 650px){
+    .session__bigger {
+        max-width: 18.6rem;
+    }
+    .review {
+        padding: 3rem 3rem;
+    }
+    .review__name {
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding-bottom: 2rem;
+    }
+    .review__text {
+        font-size: 0.9rem;
+    }
+    .review__block {
+        height: 35.5rem;
+    }
+    .review__block .swiper-pagination-bullet, .review__block .swiper-pagination-bullet-active {
+        max-width: 1.2rem;
+        width: 100%;
+        /* color: white; */
+        border-radius: 10%;
+        margin-right: 3rem;
+        height: 1.2rem;
+        /* height: 100%; */
+    }
+    
+    
+    
+}
+
+@media (max-width: 590px){
+    .session__type {
+        display: block;
+    }
+    .session__bigger {
+        max-width: 18.6rem;
+    }
+    
+    .session__big {
+        max-width: none;
+        max-height: 30rem;
+       
+    }
+    .session__bigger {
+        max-width: 58.6rem;
+        height: auto;
+        margin-bottom: 1.5rem;
+    }
+    .session__title-media {
+        font-size: 1.7rem;
+        padding: 2.4rem 1.4rem;
+        line-height: 2.4rem;
+        max-width: 23.6rem;
+    }
+}
+@media (max-height: 782px){
+    .header__text-mini {
+        display: flex;
+        justify-content: center;
+        padding: 3.1rem 0;
+        
+    }
+}
+@media (max-width: 550px){
+    .text__name {
+        
+        font-size: 4.4rem;
+        max-width: 32rem;
+        
+    }
+
+    .header__text-mini {
+        
+        padding: 4.1rem 0;
+        padding-top: 7rem;
+        
+    }
+    .review__text {
+        font-size: 0.8rem;
+    }
+    .header__text {
+        padding: 5.1rem 0;
+    }
+    .title {
+        font-size: 2.5rem;
+        padding: 0 2.6rem;
+    }
+}
+
+@media (max-width: 550px){
+    .session__name {
+        width: 20.8rem;
+    }
+    .sessian__img-name {
+        
+        padding-top: 2rem;
+       
+    }
+    
+}
+
+@media (max-width: 450px){
+    .review {
+        padding: 2rem 2rem;
+    }
+    .review__name {
+        font-size: 1.6rem;
+        font-weight: 600;
+        padding-bottom: 2rem;
+    }
+    .ritemstyle__title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+        padding-bottom: 3rem;
+    }
+    .icon__left, .icon__right {
+        max-width: 2.8rem;
+        width: 100%;
+        position: relative;
+        top: -0.3rem;
+    }
+
+    .room__item {
+        
+        padding: 2.5rem 2.5rem;
+       
+    }
+    .room__name {
+        font-size: 1.7rem;
+        padding-bottom: 2.1rem;
+        font-family: "El Messiri";
+    }
+    .room__link {
+        padding-bottom: 1.2rem;
+        display: flex;
+    }
+    .room__text {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+    .room__name {
+        font-size: 1.9rem;
+        padding-bottom: 3.1rem;
+        font-family: "El Messiri";
+    }
+    .chapter__padding {
+        
+        padding-bottom: 4.5rem;
+    }
+}
+
+@media (max-width: 372px){
+    .session__name {
+        width: 20.8rem;
+    }
+    .sessian__img-name {
+        
+        padding-top: 2rem;
+       
+    }
+    .btn {
+        
+        font-size: 1.1rem;
+        
+    }
+    .btn-bars {
+        
+        margin-left: 2rem;
+    }
+    .header__text-mini {
+        padding: 2.1rem 0;
+        padding-top: 7rem;
+    }
+    .icon__left, .icon__right {
+        max-width: 1.8rem;
+        width: 100%;
+        top: -0.7rem;
+        position: relative;
+    }
+    .title {
+        font-size: 2rem;
+        padding: 0 2.6rem;
+    }
+    .title-mini {
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 0 2.6rem;
+        font-family: "El Messiri";
+    }
+    .text__name {
+        font-size: 3.4rem;
+    }
+    .session__little {
+        width: 100%;
+        display: grid;
+        grid-column-gap: 8px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .session__title {
+        font-size: 0.9rem;
+        padding: 1.4rem 1.4rem;
+        line-height: 1.4rem;
+        max-width: 10.6rem;
+    }
+    .session__title-media {
+        font-size: 1.7rem;
+        padding: 2.4rem 1.4rem;
+        line-height: 2.4rem;
+        max-width: 23.6rem;
+    }
+    .header__text {
+        padding: 3.1rem 0;
+    }
+    .review__display {
+        /* max-width: 85.6rem; */
+        max-height: 31.4rem;
+    }
+    .ritemstyle__title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #fff;
+        padding-bottom: 3rem;
+    }
+    .ritemstyle__description {
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: #fff;
+        line-height: 2.24rem;
+    }
+    .ritemstyle__title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #fff;
+        padding-bottom: 1rem;
+    }
+    .ritemstyle:not(:last-child) {
+        margin-right: 0rem;
+        padding-bottom: 2rem;
+    }
+    .chapter__item:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+    .session__name, .session__price {
+        font-size: 1.2rem;
+        color: #fff;
+    }
+    .session__name {
+        width: 16.8rem;
+    }
+    .session__price {
+        font-weight: 700;
+        width: 6.7rem;
+        text-align: end;
+    }
+    .session-img__leaf img {
+        max-width: 1.3rem;
+        width: 100%;
+    }
+    .sessian__img-name {
+        font-size: 1.7rem;
+        
+    }
+    .chapter__padding {
+        padding-top: 5rem;
+    }
+    .room__google-maps {
+        width: 100%;
+        max-width: 85.6rem;
+        border-radius: 1rem;
+        margin-right: 4.8rem;
+        height: 18rem;
+        margin-bottom: 2rem;
+    }
+    .room__item {
+        
+        padding: 1.5rem 1.5rem;
+       
+    }
+    .room__name {
+        font-size: 1.4rem;
+        padding-bottom: 2.1rem;
+        font-family: "El Messiri";
+    }
+    .room__link {
+        padding-bottom: 1.2rem;
+        display: flex;
+    }
+    .room__text {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .room__name {
+        font-size: 1.6rem;
+        padding-bottom: 3.1rem;
+        font-family: "El Messiri";
+    }
+    .chapter__padding {
+        
+        padding-bottom: 3.5rem;
+    }
+    .footer__year {
+        font-size: 1rem;
+        font-weight: 300;
+        font-family: "El Messiri";
+    }
+    .footer__auther {
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: "El Messiri";
+    }
+    .header__dropdown a {
+        color: white;
+        font-size: 1.5rem;
+        text-decoration: none;
+        display: block;
+        padding: 12px 16px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+}
